@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ai-agent-tools"
+version = "0.1.0"
+description = "jimmy ai agent tools"
+authors = ["jimmy <jimmy0328@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+openai = "^1.63.2"
+dotenv = "^0.9.9"
+tinydb = "^4.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
